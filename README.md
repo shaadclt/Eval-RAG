@@ -1,8 +1,8 @@
-# Eval RAG
+# EvalRAG
 
 ## Overview
 
-Eval RAG is a comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics.
+EvalRAG is a comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics.
 
 ## Installation
 
