@@ -1,0 +1,9 @@
+torch==2.3.1
+sacrebleu
+rouge-score
+bert-score
+transformers
+nltk
+textblob
+textstat 
+mauve-text
