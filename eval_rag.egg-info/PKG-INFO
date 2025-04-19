@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: eval-rag
-Version: 0.0.1
+Version: 0.0.2
 Summary: A comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics
-Home-page: https://github.com/shaadclt/Eval-RAG
+Home-page: https://github.com/shaadclt/EvalRAG
 Author: Mohamed Shaad
 Author-email: shaadclt@gmail.com
 License: MIT
@@ -30,11 +30,11 @@ Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
 
-# RAG Evaluator
+# EvalRAG
 
 ## Overview
 
-Eval RAG is a comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics.
+EvalRAG is a comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics.
 
 ## Installation
 
