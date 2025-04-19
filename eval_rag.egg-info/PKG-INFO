@@ -1,4 +1,36 @@
-# Eval RAG
+Metadata-Version: 2.4
+Name: eval-rag
+Version: 0.0.1
+Summary: A comprehensive evaluation toolkit for assessing Retrieval-Augmented Generation (RAG) outputs using linguistic, semantic, and fairness metrics
+Home-page: https://github.com/shaadclt/Eval-RAG
+Author: Mohamed Shaad
+Author-email: shaadclt@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: sacrebleu
+Requires-Dist: rouge-score
+Requires-Dist: bert-score
+Requires-Dist: transformers
+Requires-Dist: nltk
+Requires-Dist: textblob
+Requires-Dist: textstat
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# RAG Evaluator
 
 ## Overview
 
@@ -47,7 +79,7 @@ The RAG Evaluator provides the following metrics:
 3. **BERT Score** (0-1): Evaluates the semantic similarity using BERT embeddings (Precision, Recall, F1).
    - 0.0-0.5: Low similarity, 0.5-0.7: Moderate, 0.7-0.8: Good, 0.8-0.9: High, 0.9-1.0: Very high
 
-4. **Perplexity** (1 to ∞, lower is better): Measures how well a language model predicts the text.
+4. **Perplexity** (1 to âˆž, lower is better): Measures how well a language model predicts the text.
    - 1-10: Excellent, 10-50: Good, 50-100: Moderate, 100+: High (potentially nonsensical)
 
 5. **Diversity** (0-1): Measures the uniqueness of bigrams in the generated output.
